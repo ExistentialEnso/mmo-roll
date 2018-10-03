@@ -1,0 +1,17 @@
+{
+  "name": "mmo-roll",
+  "version": "0.1.0",
+  "description": "A CLI tool for adding rolling functionality similar to WoW.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thorne N. Melcher",
+  "license": "MIT",
+  "dependencies": {
+    "random": "^2.0.12"
+  },
+  "bin": {
+    "roll": "src/cli.js",
+    "\\roll": "src/cli.js"
+  }
+}
