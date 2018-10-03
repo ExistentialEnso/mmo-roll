@@ -5,7 +5,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Thorne N. Melcher",
+  "author": "Thorne N. Melcher (http://www.github.com/existentialenso)",
+  "homepage": "https://github.com/existentialenso/mmo-roll/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/existentialenso/mmo-roll.git"
+  },
+  "keywords": [
+    "mmo",
+    "dice",
+    "loot",
+    "gaming",
+    "games",
+    "wow"
+  ],
   "license": "MIT",
   "dependencies": {
     "random": "^2.0.12"
