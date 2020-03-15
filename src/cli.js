@@ -40,11 +40,13 @@ if(process.argv[2]) {
             process.exit();
         }
 
+        // Convert values from string to number
         min = Number(parts[0]);
         max = Number(parts[1]);
     }
 }
 
+// Generate the actual roll value
 let value = random.int(min, max);
 
 console.log(String.raw`You rolled ${value} (${min}-${max})`);
